@@ -76,6 +76,7 @@ function downloadReport($type, $data) {
                     <option value="pending">Pending Orders</option>
                     <option value="completed">Completed Orders</option>
                 </select>
+                
                 <input type="submit" value="Generate Report" class="btn">
             </form>
         </div>
