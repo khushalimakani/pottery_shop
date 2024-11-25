@@ -24,6 +24,12 @@ if(isset($message)){
          <a href="admin_accounts.php">Admins</a>
          <a href="users_accounts.php">Users</a>
          <a href="messages.php">Messages</a>
+         <select name="reports" id="reports" onchange="location = this.value;">
+      <option value="">Select Report</option>
+      <option value="product_report.php">Product List</option>
+      <option value="total_orders.php">Total Orders</option>
+      <option value="total_users.php">Total Users</option>
+   </select>
       </nav>
 
       <div class="icons">
